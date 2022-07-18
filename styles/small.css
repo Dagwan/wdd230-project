@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans&display=swap');
-
+html{
+    background-color: #5c8301;
+}
 body {
     max-width: 100%;
     margin: 0;
@@ -55,12 +56,7 @@ header {
     
 #siteLogo {
     width: 15em;
-}
-
-    
-#siteLogo:hover {
-    -webkit-filter: drop-shadow(5px 2px 2px #03045e);
-    filter: drop-shadow(5px 2px 2px #03045e);
+    margin-top: 3em;
 }
 
 
@@ -488,7 +484,7 @@ input::placeholder {
 }
 
 
-@media only screen and (max-width: 415px) {
+@media screen and (max-width: 415px) {
 
     header {
         flex-flow: column;
